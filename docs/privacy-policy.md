@@ -16,7 +16,7 @@ The Meme Roulette extension does not collect, store, or transmit any personal us
 - Temporary storage of meme images in local browser cache for offline viewing
 
 ## Data Storage
-- No user data is stored permanently
+- No user data is stored
 - No personal information is collected
 - No browsing history is tracked
 - No cookies are used
