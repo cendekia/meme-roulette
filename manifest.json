@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Meme Roulette - Random Imgur Fun",
+  "version": "1.0",
+  "description": "🎲 Discover hilarious memes from Imgur with just one click! 🎯",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://api.imgur.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+} 

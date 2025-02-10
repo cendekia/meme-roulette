@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Imgur Image</title>
+    <style>
+      body {
+        width: 400px;
+        padding: 16px;
+        font-family: Arial, sans-serif;
+      }
+      #imageContainer {
+        margin-top: 16px;
+        text-align: center;
+      }
+      #refreshButton {
+        width: 100%;
+        padding: 8px;
+        background-color: #1bb76e;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #refreshButton:hover {
+        background-color: #159b5a;
+      }
+      #loadingSpinner {
+        text-align: center;
+        display: none;
+      }
+      #errorMessage {
+        color: red;
+        text-align: center;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="refreshButton">Get Random Meme</button>
+    <div id="loadingSpinner">Loading...</div>
+    <div id="errorMessage"></div>
+    <div id="imageContainer"></div>
+    <script src="popup.js"></script>
+  </body>
+</html> 
