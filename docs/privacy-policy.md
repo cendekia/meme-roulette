@@ -28,4 +28,4 @@ We only interact with Imgur.com to fetch public meme images. We do not share any
 We may update this Privacy Policy from time to time. We will notify users of any changes by updating the "Last updated" date at the top of this policy.
 
 ## Contact
-If you have any questions about this Privacy Policy, please contact us at [Your Contact Email].
+If you have any questions about this Privacy Policy, please contact us at cendeki4pp@gmail.com.
