@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy - Meme Roulette
+---
+
 # Privacy Policy for Meme Roulette
 
 Last updated: 2025-02-10
