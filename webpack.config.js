@@ -33,6 +33,7 @@ module.exports = {
       patterns: [
         { from: "manifest.json", to: "manifest.json" },
         { from: 'src/popup/popup.html', to: '.' },
+        { from: 'src/icons', to: 'icons' }
       ],
     }),
   ],
