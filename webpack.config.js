@@ -14,8 +14,7 @@ module.exports = {
     filename: '[name].js',
   },
   optimization: {
-    // Prevent minification of background script
-    minimize: false
+    minimize: true
   },
   module: {
     rules: [
